@@ -33,6 +33,7 @@ The result was the delivery of all reports within an acceptable and desirable ti
 
 1. Introdução
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Os fundos foram classificados em ações, multimercado e renda fixa para os segmentos Varejo e Private. Além destes existem os fundos exclusivos com a mesma classificação (ações, multimercado, renda fixa)
 
 
@@ -52,19 +53,18 @@ Na construção do modelo foram consideradas os seguintes cenários/modelagens:
    iii) As células variáveis do modelo solver são referentes a quantidade de informes de cada tipo que serão construídas/enviadas por dia;
    iv)  Posteriormente foi criada uma tabela para calcular o total de minutos gastos por dia para a construção e envio dos informes, a fim de obedecer a capacidade operacional do time;
    v)   Em seguida, construiu-se um índice multiplicando a prioridade pelo tempo a fim de se chegar a uma variável objetivo a ser utilizada pelo Solver.
-   vi)  No modelo Solver foram utilizadas, então as seguintes premissas:
+   vi)  No modelo Solver foram utilizadas, então, as seguintes premissas:
         - Todas as variáveis deverão conter números inteiros;
         - Todas as variáveis deverão ser maior que 1;
         - Nos 4º e 5º dia úteis será consumida toda a capacidade operacional do time;
         - O total construído em determinado dia deve ser maior ou igual ao dia imediatamente seguinte;
         - É realizada a checagem no modelo se todos os informes sugeridos pelo solver via variável corresponde ao total de informes a serem enviados;
         - Construída, ainda, uma restrição para que determinados tipos sejam enviados até o 5º dia útil.
+   vii)  O modelo utilizado foi para maximizar a função objetivo utilizando o método de solução Evolutionary
         
 3. Resultados
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+xxxxxxxxxxxxxxxxxxx
 
 4. Conclusões
 
