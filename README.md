@@ -1,4 +1,4 @@
-###Otimização na Contrução e Envio de Informes Mensais de Fundos
+### Otimização na Contrução e Envio de Informes Mensais de Fundos
 
 Aluno: [Rafael Alcântara da Silva](https://github.com/alcraf)
 Orientador: [Felipe Borges](https://github.com/FelipeBorgesC)
@@ -11,7 +11,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ---
 
- Resumo
+ ## Resumo
 
 O presente trabalho surgiu da necessidade de otimizar o envio dos informativos mensais de fundos de investimento realizados por uma gestora de fundos. 
 Atualmente são construídos e enviados via e-mail ou publicado no site da gestor em torno de 700 informativos. Os relatórios são construídos e enviados de forma manual através de Excel.
