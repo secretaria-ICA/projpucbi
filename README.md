@@ -1,7 +1,7 @@
-### Otimização na Contrução e Envio de Informes Mensais de Fundos
+# Otimização na Contrução e Envio de Informes Mensais de Fundos
 
-Aluno: [Rafael Alcântara da Silva](https://github.com/alcraf)
-Orientador: [Felipe Borges](https://github.com/FelipeBorgesC)
+#### Aluno: [Rafael Alcântara da Silva](https://github.com/alcraf)
+#### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC)
 
 ---
 
@@ -11,7 +11,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ---
 
- ## Resumo
+ ### Resumo
 
 O presente trabalho surgiu da necessidade de otimizar o envio dos informativos mensais de fundos de investimento realizados por uma gestora de fundos. 
 Atualmente são construídos e enviados via e-mail ou publicado no site da gestor em torno de 700 informativos. Os relatórios são construídos e enviados de forma manual através de Excel.
@@ -21,7 +21,7 @@ Ainda, cabe destacar que existem prioridades de tipos de fundos e segmentos. Ou 
 Então, para a solução do problema buscou-se a utilização de uma modelagem de otimização na ordem de construção e envio dos informativos obedecendo as prioridades apresentadas ao time que executa a atividade.
 O resultado foi a entrega de todos os informes num prazo aceitável e desejável pelos clientes e distribuidor, considerando a mão-de-obra hoje disponível pelo time.
 
-Abstract 
+### Abstract 
 
 The present work arose from the need to optimize the sending of monthly information on investment funds carried out by a fund manager.
 Currently, around 700 newsletters are built and sent via e-mail or published on the manager's website. Reports are built and sent manually through Excel.
@@ -31,13 +31,13 @@ It is also worth noting that there are priorities for types of funds and segment
 So, in order to solve the problem, we tried to use an optimization model in the order of construction and sending of the newsletters obeying the priorities presented to the team that executes the activity.
 The result was the delivery of all reports within an acceptable and desirable time frame for customers and distributors, considering the workforce available today by the team.
 
-1. Introdução
+### 1. Introdução
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Mensalmente o time de middle office da empresa 
 Os fundos foram classificados em ações, multimercado e renda fixa para os segmentos Varejo e Private. Além destes existem os fundos exclusivos com a mesma classificação (ações, multimercado, renda fixa)
 
 
-2. Modelagem
+### 2. Modelagem
 
 Na busca de uma entrega mais assertiva e rápida dos informativos mensais utilizou-se a ferramenta solver do excel,considerando as seguintes premissas/restrições:
 
@@ -55,21 +55,23 @@ Na construção do modelo foram consideradas os seguintes cenários/modelagens:
    v)   Em seguida, construiu-se um índice multiplicando a prioridade pelo tempo a fim de se chegar a uma variável objetivo a ser utilizada pelo Solver.
    vi)  No modelo Solver foram utilizadas, então, as seguintes premissas:
         - Todas as variáveis deverão conter números inteiros;
-        - Todas as variáveis deverão ser maior que 1;
-        - Nos 4º e 5º dia úteis será consumida toda a capacidade operacional do time;
-        - O total construído em determinado dia deve ser maior ou igual ao dia imediatamente seguinte;
+        - Todas as variáveis deverão ser maior que 0;
+        - O total construído em determinado dia deve ser maior ou igual ao dia imediatamente seguinte para os primeiros cinco dias;
         - É realizada a checagem no modelo se todos os informes sugeridos pelo solver via variável corresponde ao total de informes a serem enviados;
         - Construída, ainda, uma restrição para que determinados tipos sejam enviados até o 5º dia útil.
-   vii)  O modelo utilizado foi para maximizar a função objetivo utilizando o método de solução Evolutionary
+        - Criada restrição para que a capacidade operacional do dia não seja extrapolada
+   vii)  Criado um índice para considerando a prioridade e o tempo gasto para se chegar a função objetivo
+   vii)  O modelo utilizado foi para minimizar a função objetivo utilizando o método de solução GRG Não Linear
         
-3. Resultados
+### 3. Resultados
 
-xxxxxxxxxxxxxxxxxxx
+O modelo trouxe um resultado concreto e eficiente para a entrega dos informes nos prazos desejados pelos clientes e áreas internas da empresa. Foi utilizada toda a mão de obra nos primeiros dias de execução de uma forma eficiente e, posteriormente o restante das atividades do time poderão ser realizadas de forma mais consistente e planejada. O modelo atendeu todas as restrições e necessidades impostas pelos clientes e demais stakeholders internos e externos.
 
-4. Conclusões
+### 4. Conclusões
 
 O modelo se mostrou bastante interessante e assertivo, tendo em vista que proporcionou ao gestor uma melhor alocação da mão-de-obra disponível para que, assim, sejam realizadas as construções e envios de todos os informes mensais num prazo desejado por todos os demandantes.
 Logo, tendo em vista a otimização da mão-de-obra do setor, o gestor poderá utilizar as horas então economizadas para a realização de diversas outras atividades sob responsabilidade do time.
+Importante destacar que a modelagem trouxe uma força de obra bastante robusta para os primeiros dias do mês para a entrega dos resultados no prazo desejado. O time nos dias seguintes pode realizar outras atividades para que em seguida possa terminar o trabalho com maior tranquilidade para aqueles relatórios que não possuem altíssima prioridade, como é o caso a partir do oitavo dia.
 
 Matrícula: 201.110.700
 
