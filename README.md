@@ -62,11 +62,11 @@ Nesse sentido, o objetivo do presente trabalho é a modelagem de uma forma de tr
 
 Na busca de uma entrega mais assertiva e rápida dos informativos mensais utilizou-se a ferramenta solver do excel,considerando as seguintes premissas/restrições:
 
-   a) O trabalho dever ser concluído até o 10º dia útil do mês;
-   b) A construção dos informativos só pode ser iniciada a partir do 3º dia útil, data em que todos os insumos estão disponíveis;
-   c) Fundos de Ações e Multimercado do segmento Private e Multimercado e Renda Fixa do segmento Varejo devem ser entregues até o 5º dia útil;
-   d) Força total de trabalho consiste em 3 colaboradores disponíveis para a execução do trabalho durante 5 horas/dia; e
-   e) O total de informativos a serem construídos é de 675 (data base fevereiro/22)
+    a) O trabalho dever ser concluído até o 10º dia útil do mês;
+    b) A construção dos informativos só pode ser iniciada a partir do 3º dia útil, data em que todos os insumos estão disponíveis;
+    c) Fundos de Ações e Multimercado do segmento Private e Multimercado e Renda Fixa do segmento Varejo devem ser entregues até o 5º dia útil;
+    d) Força total de trabalho consiste em 3 colaboradores disponíveis para a execução do trabalho durante 5 horas/dia; e
+    e) O total de informativos a serem construídos é de 675 (data base fevereiro/22)
 
 Na construção do modelo foram consideradas os seguintes cenários/modelagens:
 
@@ -82,17 +82,17 @@ Na construção do modelo foram consideradas os seguintes cenários/modelagens:
    
    vi)  No modelo Solver foram utilizadas, então, as seguintes premissas:
    
-        a) Todas as variáveis deverão conter números inteiros;
+a) Todas as variáveis deverão conter números inteiros;
         
-        b) Todas as variáveis deverão ser maior que 0;
+b) Todas as variáveis deverão ser maior que 0;
         
-        c) O total construído em determinado dia deve ser maior ou igual ao dia imediatamente seguinte para os primeiros cinco dias;
+c) O total construído em determinado dia deve ser maior ou igual ao dia imediatamente seguinte para os primeiros cinco dias;
         
-        d) É realizada a checagem no modelo se todos os informes sugeridos pelo solver via variável corresponde ao total de informes a serem enviados;
+d) É realizada a checagem no modelo se todos os informes sugeridos pelo solver via variável corresponde ao total de informes a serem enviados;
         
-        d) Construída, ainda, uma restrição para que determinados tipos sejam enviados até o 7º dia útil.
+d) Construída, ainda, uma restrição para que determinados tipos sejam enviados até o 7º dia útil.
         
-        f) Criada restrição para que a capacidade operacional do dia não seja extrapolada
+f) Criada restrição para que a capacidade operacional do dia não seja extrapolada
         
    vii)  Criado um índice para considerando a prioridade e o tempo gasto para se chegar a função objetivo;
    
