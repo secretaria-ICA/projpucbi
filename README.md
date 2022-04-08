@@ -7,7 +7,7 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-- [Link para o código](https://github.com/Projeto_Rafael_Alcântara_da_Silva.xlsx)
+- [Link para o código](https://github.com/alcraf/projpucbi/blob/main/Projeto_Rafael_Alc%C3%A2ntara_da_Silva.xlsx)
 
 ---
 
