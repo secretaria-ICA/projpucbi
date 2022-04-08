@@ -15,23 +15,23 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 O presente trabalho surgiu da necessidade de otimizar o envio dos informativos mensais de fundos de investimento realizados por uma gestora de fundos. 
 
-Atualmente são construídos e enviados via e-mail ou publicado no site da gestor em torno de 700 informativos. Os relatórios são construídos e enviados de forma manual através de Excel.
+Atualmente são construídos e enviados via e-mail ou publicado no site da gestora em torno de 675 informativos. Os relatórios são construídos e enviados de forma manual através de Excel e ferramentas ftp.
 
-Os informes podem ser dividos em fundos de ações, multimercado e renda fixa, tendo ainda uma subvidisão por cada segmento de clientes, a saber varejo e private. E ainda surgiu a necessidade um terceiro segmento que seriam para os fundos exclusivos.
+Os informes podem ser dividos em fundos de ações, multimercado e renda fixa, tendo ainda uma subvidisão por cada segmento de clientes, a saber varejo e private. E ainda surgiu a necessidade um terceiro segmento: os fundos exclusivos.
 
-Dentre as inúmeras necessidades dos clientes e distribuidor a mais demandada é a velocidade na confecção e envio dos relatórios até no máximo no décimo dia útil do mês subsequente à data base.
+Dentre as inúmeras necessidades dos clientes e distribuidor a mais demandada é a velocidade na confecção e envio dos relatórios até, no máximo, o décimo dia útil do mês subsequente à data base.
 
-Ainda, cabe destacar que existem prioridades de tipos de fundos e segmentos. Ou seja, alguns tipos de informativos devem ser encaminhados com a máxima prioridade sendo o prazo fatal o quinto dia útil do mês.
+Ainda, cabe destacar que existem prioridades de tipos de fundos e segmentos. Ou seja, alguns tipos de informativos devem ser encaminhados com a máxima prioridade sendo o prazo fatal o sétimo dia útil do mês.
 
 Então, para a solução do problema buscou-se a utilização de uma modelagem de otimização na ordem de construção e envio dos informativos obedecendo as prioridades apresentadas ao time que executa a atividade.
 
-O resultado foi a entrega de todos os informes num prazo aceitável e desejável pelos clientes e distribuidor, considerando a mão-de-obra hoje disponível pelo time.
+O resultado foi a entrega de todos os informes num prazo aceitável e desejável pelos clientes e distribuidor, considerando a mão-de-obra hoje alocada para a execução da atividade.
 
 ### Abstract 
 
 The present work arose from the need to optimize the sending of monthly information on investment funds carried out by a fund manager.
 
-Currently, around 700 newsletters are built and sent via e-mail or published on the manager's website. Reports are built and sent manually through Excel.
+Currently, around 675 reports are built and sent via e-mail or published on the manager's website. Reports are built and sent manually through Excel.
 
 The reports can be divided into equity, multimarket and fixed income funds, with a subdivision for each customer segment, namely retail and private. And yet the need arose for a third segment that would be for exclusive funds.
 
@@ -41,7 +41,7 @@ It is also worth noting that there are priorities for types of funds and segment
 
 So, in order to solve the problem, we tried to use an optimization model in the order of construction and sending of the newsletters obeying the priorities presented to the team that executes the activity.
 
-The result was the delivery of all reports within an acceptable and desirable time frame for customers and distributors, considering the workforce available today by the team.
+The result was the delivery of the reports in an anticipated period and considering the execution of all the clients and the labor allocated for the execution.
 
 ### 1. Introdução
 
@@ -53,9 +53,9 @@ Na rotina executada mensalmente pela equipe existe a necessidade de seguir algum
 
 Além disso, vale ressaltar que a equipe dedicada a executar todo este operacional é bastante resumida e, também, realiza diversas outras atividades não ligadas diretamente a construção dos informativos.
 
-Portanto, considerando a mão-de-obra escassa, a grande quantidade de atividades, a importância e relevância comercional dos relatórios enviados e, ainda as restrições e prioridades impostas pela empresa, surgiu-se a necessidade de estudo e criação de um modelo de trabalho para executar com eficiência e eficacia a construção, envio e disponibilização dos informes mensais de fundos de investimento para os clientes internos e externos.
+Portanto, considerando a mão-de-obra escassa, a grande quantidade de atividades, a importância e relevância comercial dos relatórios enviados e, ainda as restrições e prioridades impostas pela empresa, surgiu-se a necessidade de estudo e criação de um modelo de trabalho para executar com eficiência e eficacia a construção, envio e disponibilização dos informes mensais de fundos de investimento para os clientes internos e externos.
 
-Nesse sentido, o objetivo do presente trabalho é a modelagem de uma forma de trabalho para a equipe, utilizando a ferramenta solver do excel, da forma mais eficiente possível a fim de agregar valor desta atividade para a empresa.
+Nesse sentido, o objetivo do presente trabalho é a modelagem de uma forma de trabalho para a equipe, utilizando a ferramenta solver do excel, da forma mais eficiente possível a fim de agregar valor desta atividade para a empresa e clientes.
 
 
 ### 2. Modelagem
@@ -90,11 +90,11 @@ Na construção do modelo foram consideradas os seguintes cenários/modelagens:
         
         d) É realizada a checagem no modelo se todos os informes sugeridos pelo solver via variável corresponde ao total de informes a serem enviados;
         
-        d) Construída, ainda, uma restrição para que determinados tipos sejam enviados até o 5º dia útil.
+        d) Construída, ainda, uma restrição para que determinados tipos sejam enviados até o 7º dia útil.
         
         f) Criada restrição para que a capacidade operacional do dia não seja extrapolada
         
-   vii)  Criado um índice para considerando a prioridade e o tempo gasto para se chegar a função objetivo
+   vii)  Criado um índice para considerando a prioridade e o tempo gasto para se chegar a função objetivo;
    
    vii)  O modelo utilizado foi para minimizar a função objetivo utilizando o método de solução GRG Não Linear
         
