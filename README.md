@@ -45,8 +45,17 @@ The result was the delivery of all reports within an acceptable and desirable ti
 
 ### 1. Introdução
 
-Mensalmente o time de middle office da empresa 
-Os fundos foram classificados em ações, multimercado e renda fixa para os segmentos Varejo e Private. Além destes existem os fundos exclusivos com a mesma classificação (ações, multimercado, renda fixa)
+Mensalmente o time de middle office da empresa realiza a construção e envio de 675 informes mensais de fundos de investimento para clientes internos e externos. O processo é executado de forma artesanal, utilizando o aplicativo excel, com o input de dados de diversos, sistemas, planilhas e provedores de informações internos e externos.
+
+Os fundos são classificados em ações, multimercado e renda fixa para os segmentos Varejo e Private. Além destes existem os fundos exclusivos com a mesma classificação (ações, multimercado, renda fixa).
+
+Na rotina executada mensalmente pela equipe existe a necessidade de seguir algumas prioridades de entrega dos relatórios, como para os clientes Private, por exemplo.
+
+Além disso, vale ressaltar que a equipe dedicada a executar todo este operacional é bastante resumida e, também, realiza diversas outras atividades não ligadas diretamente a construção dos informativos.
+
+Portanto, considerando a mão-de-obra escassa, a grande quantidade de atividades, a importância e relevância comercional dos relatórios enviados e, ainda as restrições e prioridades impostas pela empresa, surgiu-se a necessidade de estudo e criação de um modelo de trabalho para executar com eficiência e eficacia a construção, envio e disponibilização dos informes mensais de fundos de investimento para os clientes internos e externos.
+
+Nesse sentido, o objetivo do presente trabalho é a modelagem de uma forma de trabalho para a equipe, utilizando a ferramenta solver do excel, da forma mais eficiente possível a fim de agregar valor desta atividade para a empresa.
 
 
 ### 2. Modelagem
