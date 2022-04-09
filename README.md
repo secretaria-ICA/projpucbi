@@ -11,8 +11,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ---
 
- ### Resumo
-
+### Resumo
 O presente trabalho surgiu da necessidade de otimizar o envio dos informativos mensais de fundos de investimento realizados por uma gestora de fundos. 
 
 Atualmente são construídos e enviados via e-mail ou publicado no site da gestora em torno de 675 informativos. Os relatórios são construídos e enviados de forma manual através de Excel e ferramentas ftp.
